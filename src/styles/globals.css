@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    @apply bg-slate-950 text-slate-100 antialiased;
+  }
+
+  body {
+    @apply min-h-screen bg-[radial-gradient(ellipse_at_top,_rgba(16,185,129,0.12),_transparent_55%),_linear-gradient(to_bottom,_#020617,_#0f172a)];
+  }
+
+  ::selection {
+    @apply bg-emerald-500/30 text-white;
+  }
+}
